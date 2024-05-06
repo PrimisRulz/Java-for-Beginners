@@ -1,0 +1,16 @@
+Characters
+
+char: used to store a SINGLE character, and must be surrounded by '', not ""
+
+ASCII values can also be used to display certain characters (Though it is not neccssary to use these values)
+
+Example:
+
+char myGrade = 'B';
+System.out.println(myGrade);
+
+public static void main(String[] args) {
+char myVar1 = 113, myVar2 = 77, myVar3 = 92;
+System.out.println(myVar1);
+System.out.println(myVar2);
+System.out.println(myVar3);

@@ -1,0 +1,42 @@
+Before I get started on teaching you Java, lemme help you effectively use this collection of notes and example files.
+
+1. Create a folder somewhere on your PC and label it whatever you want.
+2. Inside this folder, this is where you should be trying to learn, create, and execute your code. I would reccomend just having one spot to test your code, as otherwise you will constantly need to change the directory on command prompt before you execute your code. That is just annoying to do.
+3. Have fun learning Java! I hope this guide helps, and if you need help for whatever reason, my email is primisandultimisrulz@gmail.com!
+
+Java applications use what is known as a "class". A "class" is basically the name of your code. It also MUST match the name of the file (capitalization does matter). There are some rules as to what your file name should be. They are as follows:
+
+Names CAN contain letters, digits, underscores, and dollar signs
+Names MUST begin with a letter
+Names SHOULD (but are not required to) start with a lowercase letter, and cannot contain whitespace
+Names CAN also begin with $ and _
+Names ARE CASE-SENSITIVE ("myVar" and "myvar" are two different names)
+Reserved words (like java keywords such as int, boolean, etc.) cannot be used as names.
+
+These rules also apply to what we call "Variables", but that is covered in a later part of this document.
+
+To create your first Java file, open up the folder I had you make earlier. Now, open a notepad document by pressing win key, and typing "notepad". You can also use the "Java File Start" file included here, as it is set to read-only. Double clicking it will open a brand new version of the file.
+
+If you used the file example, press enter at the end of the "public static void" line, and input this (I reccomend not copy-pasting if you truly want to learn Java);
+
+    System.out.println("Hello World!");
+
+If you created a new file, tpye this line of code out:
+
+public class [Input name here] {;
+  public static void main(String[] args) {;
+    System.out.println("Hello World!");
+  }
+}
+
+Don't worry if none of this makes sense, this is to help you know how to execute your code for now!
+
+Now, save your file but make sure you save it as a .java file and not .txt file. You can change this by clicking the "Text Document" file, and changing it to "All Files", then type your file name and add .java to the end. Make sure its saved to your folder I had you make!
+
+Also, make sure your file's "class" doesn't contain brackets around the name so that it looks more like this:
+
+public class name {;
+
+Now comes the fun part! Run CMD as admin. Input the command "cd [Folder directory path]" and press enter. Now, type "javac [filename].java" and press enter. If no issues arise, it should just go to the next line. If there are any issues, make sure your code lloks like the example file I will have included (I will have example files included in all of these subjects. Try only to use them if your code isn't working after following my guide. Also, feel free to add multiple lines of code to a single file rather than making multiple different files, there are some exceptions to this though! I will usually let you know if you should create a new file instead of adding new lines of code.)
+
+Alright, so now it is successfully compiled! Congrats! Now, type the command "java [filename]". Note you don't need to add .java to the end this time. Now if you run the code, it should say "Hello World!" Congratulations, you have written and executed your first Java file!

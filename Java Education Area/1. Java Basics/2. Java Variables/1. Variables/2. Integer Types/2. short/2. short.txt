@@ -1,0 +1,6 @@
+"short" can store whole numbers ranging from -32768, to 32767. "int" is usually a better option as it can store more numbers, however "short" can be used if you are certain the value falls within the range as it does save memory.
+
+Example:
+
+short myNum = 5000;
+System.out.println(myNum);

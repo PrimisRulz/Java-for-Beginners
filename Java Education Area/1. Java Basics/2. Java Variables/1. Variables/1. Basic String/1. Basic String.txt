@@ -1,0 +1,8 @@
+"String" is used to store text, rather than a single character. String values use "", unlike "char" which uses ''.
+
+Strings are a non-primitive data type because it refers to an "object".
+
+Example:
+
+String greeting = "Hello World";
+System.out.println(greeting);

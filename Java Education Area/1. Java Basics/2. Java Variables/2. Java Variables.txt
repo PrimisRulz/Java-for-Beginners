@@ -1,0 +1,13 @@
+Variables are containers for storing data values. These containers store a variety of things. All you need to do to set one up is through a line of code that looks something like this:
+
+variabletype variablename = value;
+
+Where variabletype is, add a variable such as String, or int. For the variablename, put whatever you want the name of this variable to be. (We call these identifiers)
+
+2. You also have Display/Print Variables, which are things such as "print" and "println()". These basically allow you to display the code you specify.
+
+3. You can also declare multiple variables on a single line of code, rather than manually declaring each variable on seperate lines.
+
+4. Finally, we cover Identifiers. These are basically the names of what you set for all of your custom variables.
+
+Each of these variables will be expanded upon in the "Variables" folder, with examples for each of course

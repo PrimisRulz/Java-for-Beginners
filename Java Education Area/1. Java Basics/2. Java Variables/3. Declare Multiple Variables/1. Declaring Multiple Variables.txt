@@ -1,0 +1,21 @@
+You can declare more than one variable of the same type if you use a comma-seperated list.
+
+So instead of typing:
+
+int x = 5;
+int y = 6;
+int z = 50;
+System.out.println(x + y + z);
+
+You could instead type:
+
+int x = 5, y = 6, z = 50;
+System.out.println(x + y + z)
+
+You can also assign the same value to multiple variables in one line:
+
+int x, y, z;
+x = y = z = 50;
+System.out.println(x + y + z);
+
+Go ahead and give it a try! Remember, there are example files just in case your code doesn't work!

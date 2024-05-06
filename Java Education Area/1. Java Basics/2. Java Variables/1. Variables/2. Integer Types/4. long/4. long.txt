@@ -1,0 +1,6 @@
+"long" is used to store whole numbers from -9223372036854775808, to 9223372036854775807. This is only used when the "int" value isn't enough. You also need to end the value with "L".
+
+Example:
+
+long myNum = 15000000000L;
+System.out.println(myNum);

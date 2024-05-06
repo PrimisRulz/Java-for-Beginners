@@ -1,0 +1,6 @@
+"double" is used to store decimals. "double" can be used to store about fifteen digits. Because of this, "double" is much safer to use for most calculations. You also have to end your numeric value with "d".
+
+Example:
+
+double myNum = 19.99d;
+System.out.println(myNum);

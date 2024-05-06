@@ -1,0 +1,27 @@
+Data Type    Size      Description
+
+byte        1 byte     Stores whole numbers from -128 to 127
+short       2 bytes    Stores whole nymbers from -32,768 to 32,767
+int         4 bytes    Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long        8 bytes    Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float       4 bytes    Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double      8 bytes    Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean     1 bit      Stores true or false values
+char        2 bytes    Stores a single character/letter or ASCII values
+
+ASCII values: https://www.w3schools.com/charsets/ref_html_ascii.asp
+
+Integer Types use values such as byte, short, int and long. Which value you should use is dependant on the numeric value.
+Floating point types are for numbers with decimals. The two types of values for these are float and double. Again, whcich value you use is dependant on the numeric value
+
+byte: Can be used to save memory when you are certain the vaule is within -128 to 127.
+short: Is used to store numbers from -32768 to 32767
+int: Is the most commonly used and preferred data type.
+long: Is only used when the value for "int" isn't big enough
+
+Floating Point Types are used when numeric values include decimals. Doubles are used more commonly as their calculations are more precise
+
+float: Is used when decimals are involved (6 or 7 digit max) (when typing out the "myNum" value, end the value with f)
+double: Is used more often than float as its more precise with calculations (15 digit max) (when typing out the "myNum" value, end the value with d)
+
+Scientific Numbers - A "float" value can be a scientific number using "e" to indicate the power of 10

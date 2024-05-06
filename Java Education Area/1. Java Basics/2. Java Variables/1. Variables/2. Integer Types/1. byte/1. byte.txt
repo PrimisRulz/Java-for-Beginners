@@ -1,0 +1,6 @@
+A "byte" is used to store numbers from -128, to 127. "int" is usually a better option as it can store more numbers and be more precise, however if you are certain the number is in the range, you can use "byte" to save memory.
+
+Example:
+
+byte myNum = 100;
+System.out.println(myNum);

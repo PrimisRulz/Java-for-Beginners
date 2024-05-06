@@ -1,0 +1,23 @@
+Java Type Casting is when you assign a value of one primitve data type, to another type. There are two types of casting:
+
+Widening Casting (automatic) - Converts a smaller data type into a larger size (byte -> short -> char -> int -> long -> float -> double) 
+
+Narrowing Casting - Converts a larger data type into a smaller size (double -> float -> long -> int -> char -> short -> byte ->)
+
+Widening Casting is performed automatically
+
+Narrowing Casting is performed manually by placing the type desired in parantheses in front of the value.
+
+When looking at the "NarrowingCasting.java" file, you see that we have a double with a value of 9.78. Then, we put our double into the "int" line, looking something like shown below:
+
+double myDouble = 9.78d;
+int myInt = (int) myDouble;
+
+This in turn converts our double to an int, giving us a value of 9 instead of 9.78. This is called "Narrowing Casting".
+
+Looking at our other file, "WideningCasting", we are given an "int" value of 9. We want to turn this into a "double", so we once again add our "int" to the end of the new line of code, looking like this:
+
+int myInt = 9;
+double myDouble = myInt;
+
+This then gives us a "double" with a value of 9.0.

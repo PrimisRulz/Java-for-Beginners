@@ -1,0 +1,7 @@
+"println()" is a method used to display variables (it isn't the only method though) To combine both text and a variable, use the + character. There is an example file located in this folder called "printline.java" showing this example.
+
+You can also use the + character to add a variable to another variable. There is an example file located in this folder called "printline1.java" showing this example.
+
+You can also use + as a mathematical operator. There is an example file located in this folder called "printline2.java" showing this example.
+
+When looking at the file "printline2", you see that x has the value of 5, y has the value of 6, and when we use the println() method to display the value of x + y, we see it adds it and we get 11 presented, instead of "x + y".

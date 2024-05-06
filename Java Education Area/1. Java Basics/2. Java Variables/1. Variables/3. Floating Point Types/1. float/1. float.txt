@@ -1,0 +1,6 @@
+"float" is used whenever you need to deal with decible numbers. "float" only holds about six or seven digits. You also need to end a "float" with an "f" after your numeric value.
+
+Example:
+
+float myNum = 5.75f;
+System.out.println(myNum);

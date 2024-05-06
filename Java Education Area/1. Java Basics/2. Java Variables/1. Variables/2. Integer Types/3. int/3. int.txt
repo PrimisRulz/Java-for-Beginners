@@ -1,0 +1,6 @@
+"int" is used to store whole numbers from -2147483648, to 2147483647. In general, "int" is the preferred data type when dealing with variables with a numeric value.
+
+Example:
+
+int myNum = 100000;
+System.out.println(myNum);

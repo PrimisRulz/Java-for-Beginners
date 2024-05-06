@@ -1,0 +1,10 @@
+Boolean Types
+
+YES/NO, ON/OFF and TRUE/FALSE are commonly used in other programming languages. However, Java's "boolean" only takes "true" or "false" values
+
+Example:
+
+boolean isJavaFun = true;
+boolean isFishTasty = false;
+System.out.println(isJavaFun);
+System.out.println(isFishTasty);

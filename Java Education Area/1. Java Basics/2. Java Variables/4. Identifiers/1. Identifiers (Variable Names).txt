@@ -1,0 +1,14 @@
+All variables must be identified with unique names. These names are called identifiers. Identifiers can be as short as a single character(X, or Y are some examples), or can be more descriptive (age, sum, and totalVolume are some examples)
+
+There is an example file called "Identifier.java" which shows you how an identifer could be coded.
+
+There are general rules for naming Variables:
+
+Names CAN contain letters, digits, underscores, and dollar signs
+Names MUST begin with a letter
+Names SHOULD (but are not required to) start with a lowercase letter, and cannot contain whitespace
+Names CAN also begin with $ and _
+Names ARE CASE-SENSITIVE ("myVar" and "myvar" are two different variables)
+Reserved words (like java keywords such as int, boolean, etc.) cannot be used as names.
+
+(Do these rules look familiar? They should as they are the same rules that apply to your class/file names!)
